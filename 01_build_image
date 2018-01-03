@@ -1,0 +1,5 @@
+#!/bin/bash
+docker rm -f acsc 
+docker rmi acsc
+cd docker
+docker build -t acsc .
